@@ -1,16 +1,14 @@
-<nav class="pure-menu pure-menu-horizontal">
-  <a href="{{ site.url }}" class="pure-menu-heading pure-menu-link">
+<nav class="navbar pure-menu pure-menu-horizontal pure-menu-fixed">
+  <a href="{{ site.url }}" class="navbar-title pure-menu-heading pure-menu-link">
     {{ site.title }}
   </a>
-  <ul class="pure-menu-list">
-    {% for page in site.pages %}
-      {% if page.title %}
-        <li class"pure-menu-item">
-          <a href="{{ page.url | relative_url }}" class="pure-menu-link">
-            {{ page.title | escape }}
-          </a>
-        </li>
-      {% endif %}
+  <ul class="navbar-list pure-menu-list">
+    {% for link in site.links %}
+      <li class="pure-menu-item">
+        <a href="#{{ link.hash | escape }}" class="pure-menu-link">
+          {{ link.text | escape }}
+        </a>
+      </li>
     {% endfor %}
   </ul>
 </nav>

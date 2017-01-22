@@ -20,6 +20,19 @@ defaults:
     type: pages
   values:
     layout: page
+links:
+-
+  text: Peruskurssi
+  hash: peruskurssi
+-
+  text: Harjoitusajat
+  hash: harjoitusajat
+-
+  text: Seura
+  hash: seura
+-
+  text: Dojo
+  hash: dojo
 permalink: none
 exclude:
 - Gemfile
