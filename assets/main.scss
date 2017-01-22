@@ -53,3 +53,14 @@ a.anchor {
   top: -$navbar-height;
   visibility: hidden;
 }
+
+/*
+ * Images
+ */
+
+ .image-main,
+ .image-spacer {
+   img {
+     width: 100%;
+   }
+ }
