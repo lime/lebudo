@@ -66,9 +66,19 @@ a.anchor {
  * Images
  */
 
- .image-main,
- .image-spacer {
-   img {
-     width: 100%;
-   }
- }
+.image-main {
+  height: 400px;
+}
+
+.image-spacer {
+  height: 300px;
+}
+
+.image-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  z-index: -1;
+}
