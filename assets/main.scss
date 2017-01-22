@@ -18,8 +18,17 @@ body {
   font-family: $base-font-family;
 }
 
-.navbar {
+/*
+ * Navigation
+ */
 
+.navbar {
+  background: #111;
+}
+
+.pure-menu-link {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .navbar-title {
