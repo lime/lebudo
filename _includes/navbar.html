@@ -1,0 +1,16 @@
+<nav>
+  <a href="{{ site.url }}">
+    {{ site.title }}
+  </a>
+  <section>
+    <ul>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <a href="{{ page.url | relative_url }}">
+            {{ page.title | escape }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</nav>
