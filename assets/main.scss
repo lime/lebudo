@@ -17,10 +17,18 @@ $base-font-family: system-ui,
 $navbar-height: 48px;
 $navbar-font-size: 16px;
 
+/*
+ * Base styles
+ */
 
 body {
-  font-family: $base-font-family;
   padding-top: $navbar-height;
+}
+
+// http://purecss.io/grids/#using-grids-with-custom-fonts
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: $base-font-family;
 }
 
 /*
