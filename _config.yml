@@ -22,3 +22,6 @@ defaults:
     layout: page
 permalink: none
 theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
