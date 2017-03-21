@@ -3,12 +3,14 @@
     {{ site.title }}
   </a>
   <ul class="navbar-list pure-menu-list">
-    {% for link in site.links %}
-      <li class="pure-menu-item">
-        <a href="#{{ link.hash | escape }}" class="pure-menu-link">
-          {{ link.text | escape }}
-        </a>
-      </li>
+    {% for page in site.pages %}
+      {% if page.title %}
+        <li class="pure-menu-item">
+          <a href="{{ page.url }}" class="pure-menu-link">
+            {{ page.title | escape }}
+          </a>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </nav>

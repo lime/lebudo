@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Harjoitusajat
 header_image_url: https://unsplash.it/1600/900
 footer_image_url: https://unsplash.it/g/1600/1000?blur
 ---
