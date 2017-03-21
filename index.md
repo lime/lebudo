@@ -1,7 +1,6 @@
 ---
 layout: page
 header_image_url: https://unsplash.it/g/1600/1000
-footer_image_url: https://unsplash.it/1600/1000?blur
 ---
 
 ## Peruskurssi 2017
