@@ -4,8 +4,8 @@ header_image_url: https://unsplash.it/1600/900
 footer_image_url: https://unsplash.it/g/1600/1000?blur
 ---
 
-## Peruskurssi 2017
+## Harjoitusajat
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum iaculis nibh, sit amet vulputate nisl mollis at. Integer quis lorem massa. In hac habitasse platea dictumst. Aliquam a cursus urna. Donec viverra vehicula nisi.
+Duis mi ex, lobortis vitae fermentum non, sagittis ut leo. Vestibulum justo nibh, sollicitudin at tempor vitae, pulvinar et ante. Aliquam in neque nibh. Nunc id odio purus. Nunc sit amet enim faucibus, hendrerit dolor eget, iaculis est. Aenean quis iaculis odio, euismod luctus libero. Cras imperdiet tellus sed ornare laoreet.
 
-Ut elit ante, porta vitae ornare vel, sollicitudin vitae enim. Donec lacinia semper urna, quis auctor velit finibus blandit. Proin varius libero sit amet finibus varius. Mauris et laoreet felis. Mauris sollicitudin arcu congue libero euismod, nec suscipit eros dictum.
+Nunc eget gravida ligula. In tincidunt nisi metus, tincidunt ornare nibh tincidunt in. Maecenas rutrum in metus non porta. Sed et dui in mi scelerisque viverra. Ut ut consequat dolor. Pellentesque id blandit urna. Ut viverra non mauris non varius. Suspendisse tincidunt eros velit, at tristique massa dignissim id. Morbi nec massa imperdiet, imperdiet enim non, varius magna. Nulla aliquam lorem nec facilisis vestibulum.
