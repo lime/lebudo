@@ -1,5 +1,16 @@
 ---
 layout: default
 ---
+<div class="pure-g">
+  <div class="image-main pure-u-1">
+    <div class="image-bg" style="background-image: url('{{ page.header_image_url }}');"></div>
+  </div>
 
-{{ content }}
+  <div class="content-section pure-u-1">
+    {{ content | markdownify }}
+  </div>
+
+  <div class="image-spacer pure-u-1">
+    <div class="image-bg image-bg-parallax" style="background-image: url('{{ page.footer_image_url }}');"></div>
+  </div>
+</div>
