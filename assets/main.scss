@@ -90,7 +90,19 @@ body {
   bottom: $full-page-padding-vertical;
   left: $full-page-padding-horizontal;
 
-  color: $light-grey;
+  dt, dd {
+    margin: 0;
+    font-size: 16px;
+    color: $light-grey;
+  }
+
+  dt {
+    margin-top: 16px;
+  }
+}
+
+.timetables-heading {
+  color: white;
 }
 
 .image-bg {
