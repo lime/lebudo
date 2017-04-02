@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-<div class="pure-g">
-  <div class="pure-u-1-2">
-    <div class="image-bg" style="background-image: url('{{ page.header_image_url }}');">
-      <h1>Lebudo</h1>
+<div class="flexChild columnParent">
+  <div class="flexChild rowParent">
+    <div class="flexChild rowParent">
+      <div class="image-bg flexChild" style="background-image: url('{{ page.background_image }}');">
+        <h1>Lebudo</h1>
+      </div>
     </div>
-  </div>
 
-  <div class="pure-u-1-2">
-    <div class="content-section">
-      {{ content | markdownify }}
+    <div class="flexChild rowParent">
+      <div class="content-section flexChild">
+        {{ content | markdownify }}
+      </div>
     </div>
   </div>
 </div>
