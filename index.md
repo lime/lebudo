@@ -1,9 +1,8 @@
 ---
 layout: page
+title: Peruskurssi
 background_image: "/uploads/iaido.jpg"
 ---
-
-## Peruskurssi 2017
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum iaculis nibh, sit amet vulputate nisl mollis at. Integer quis lorem massa. In hac habitasse platea dictumst. Aliquam a cursus urna. Donec viverra vehicula nisi.
 
