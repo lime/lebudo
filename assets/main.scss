@@ -14,8 +14,10 @@ $base-font-family: system-ui,
   "Helvetica Neue",
   sans-serif;
 
-$full-page-padding-vertical: 30px;
+$full-page-padding-vertical: 36px;
 $full-page-padding-horizontal: 40px;
+
+$top-bar-line-height: 30px;
 
 /*
  * Base styles
@@ -69,6 +71,8 @@ body {
   top: $full-page-padding-vertical;
   left: $full-page-padding-horizontal;
 
+  line-height: $top-bar-line-height;
+
   color: white;
 }
 
@@ -91,6 +95,28 @@ body {
   background-position-x: 50%;
   background-position-y: 50%;
   z-index: -1;
+}
+
+/*
+ * Navigation
+ */
+
+.navigation {
+  margin: {
+    top: $full-page-padding-vertical;
+    left: $full-page-padding-horizontal;
+    right: $full-page-padding-horizontal;
+  };
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-item {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+
+  line-height: $top-bar-line-height;
 }
 
 /*
