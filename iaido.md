@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Iaido
-header_image_url: https://unsplash.it/1600/900
+background_image: https://unsplash.it/g/900/1600
 ---
 
 ## Iaido
