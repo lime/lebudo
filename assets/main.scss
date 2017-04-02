@@ -124,8 +124,12 @@ body {
  */
 
 .page-content {
-  margin: 0 auto;
-  padding: 25px 80px;
+  margin: {
+    top: 100px;
+    bottom: 25px;
+    left: 80px;
+    right: 80px;
+  };
 
   h2 {
     font-weight: normal;
