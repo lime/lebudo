@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Kendo
+layout: page
 subtitle: 剣道
 background_image: https://unsplash.it/g/900/1600
 ---

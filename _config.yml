@@ -2,6 +2,9 @@
 title: lebudo
 timezone: Europe/Helsinki
 collections:
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true

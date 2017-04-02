@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Jodo
+layout: page
 subtitle: 杖道
 background_image: https://unsplash.it/g/900/1600
 ---

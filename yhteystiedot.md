@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Yhteystiedot
+layout: page
 header_image_url: https://unsplash.it/1600/900
 ---
 

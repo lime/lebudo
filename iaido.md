@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Iaido
+layout: page
 subtitle: 居合道
 background_image: https://unsplash.it/g/900/1600
 ---
