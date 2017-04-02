@@ -1,0 +1,20 @@
+---
+title: Lebudo
+timezone: Europe/Helsinki
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: none
+exclude:
+- Gemfile
+- Gemfile.lock
