@@ -1,12 +1,12 @@
-<nav class="navbar pure-menu pure-menu-horizontal pure-menu-fixed">
-  <a href="{{ site.url }}" class="navbar-title pure-menu-heading pure-menu-link">
+<nav>
+  <a href="{{ site.url }}">
     {{ site.title }}
   </a>
-  <ul class="navbar-list pure-menu-list">
+  <ul>
     {% for page in site.pages %}
       {% if page.title %}
-        <li class="pure-menu-item">
-          <a href="{{ page.url }}" class="pure-menu-link">
+        <li>
+          <a href="{{ page.url }}">
             {{ page.title | escape }}
           </a>
         </li>
