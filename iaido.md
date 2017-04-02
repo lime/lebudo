@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Iaido
+subtitle: 居合道
 background_image: https://unsplash.it/g/900/1600
 ---
-
-## Iaido
 
 Duis mi ex, lobortis vitae fermentum non, sagittis ut leo. Vestibulum justo nibh, sollicitudin at tempor vitae, pulvinar et ante. Aliquam in neque nibh. Nunc id odio purus. Nunc sit amet enim faucibus, hendrerit dolor eget, iaculis est. Aenean quis iaculis odio, euismod luctus libero. Cras imperdiet tellus sed ornare laoreet.
 

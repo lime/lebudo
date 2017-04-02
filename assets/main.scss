@@ -158,12 +158,17 @@ body {
   color: $dark-grey;
 
   h2 {
-    font-weight: normal;
-    font-size: 1.8rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
   }
 
   p {
     font-size: 18px;
     line-height: 1.25em;
+  }
+
+  .highlight {
+    color: $scarlet;
   }
 }

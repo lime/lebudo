@@ -36,6 +36,12 @@ layout: default
   <div class="right-side">
     {% include navbar.html %}
     <div class="page-content">
+      <h2>
+        {{ page.title }}
+        <span class=highlight>
+          {{ page.subtitle }}
+        </span>
+      </h2>
       {{ content | markdownify }}
     </div>
   </div>
