@@ -31,9 +31,7 @@ body {
   min-height: 100%;
 }
 
-// http://purecss.io/grids/#using-grids-with-custom-fonts
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
+html, button, input, select, textarea {
   font-family: $base-font-family;
 }
 
