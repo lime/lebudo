@@ -19,8 +19,8 @@ $base-font-family: system-ui,
   "Helvetica Neue",
   sans-serif;
 
-$full-page-padding-vertical: 36px;
-$full-page-padding-horizontal: 40px;
+$full-page-padding-vertical: 50px;
+$full-page-padding-horizontal: 60px;
 
 $top-bar-line-height: 30px;
 
@@ -170,12 +170,19 @@ body {
   color: $dark-grey;
 
   h2 {
+    margin: 42px 0;
     font-weight: bold;
     font-size: 1.4rem;
     text-transform: uppercase;
   }
 
   p {
+    margin: {
+      top: 36px;
+      bottom: 36px;
+      left: 15%;
+      right: 0;
+    };
     font-size: 18px;
     line-height: 1.25em;
   }
