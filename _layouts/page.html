@@ -1,19 +1,31 @@
 ---
 layout: default
 ---
-<div class="flexChild columnParent">
-  <div class="flexChild rowParent">
-    <div class="flexChild rowParent">
-      <div class="image-bg flexChild" style="background-image: url('{{ page.background_image }}');">
-        <h1>Lebudo</h1>
-      </div>
+<div>
+  <div style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+  ">
+    <div class="image-bg" style="background-image: url('{{ page.background_image }}');">
+      <h1>Lebudo</h1>
     </div>
+  </div>
 
-    <div class="flexChild rowParent">
-      <div class="content-section flexChild">
-        {% include navbar.html %}
-        {{ content | markdownify }}
-      </div>
+  <div style="
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+  ">
+    <div class="content-section">
+      {% include navbar.html %}
+      {{ content | markdownify }}
     </div>
   </div>
 </div>
