@@ -4,7 +4,17 @@ layout: default
 
 <div>
   <div class="left-side">
-    <div class="image-bg" style="background-image: url('{{ page.background_image }}');">
+    <div
+      class="image-bg"
+      style="
+        background-image:
+          linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 20%,
+            rgba(0, 0, 0, 0.8) 70%
+          ),
+          url('{{ page.background_image }}');
+    ">
       <a href="{{ site.url }}">
         <h1 class="title">
           {{ site.title }}
