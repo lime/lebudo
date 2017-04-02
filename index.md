@@ -1,6 +1,6 @@
 ---
 layout: page
-background_image: https://unsplash.it/g/900/1600
+background_image: "/uploads/iaido.jpg"
 ---
 
 ## Peruskurssi 2017
