@@ -2,6 +2,11 @@
 ---
 @charset "utf-8";
 
+$dark-grey: #4a4a4a;
+$light-grey: #d8d8d8;
+$scarlet: #c30016;
+$scarlet-two: #d0011b;
+
 // https://bitsofco.de/the-new-system-font-stack/
 $base-font-family: system-ui,
   -apple-system,
@@ -84,7 +89,7 @@ body {
   bottom: $full-page-padding-vertical;
   left: $full-page-padding-horizontal;
 
-  color: white;
+  color: $light-grey;
 }
 
 .image-bg {
@@ -112,7 +117,7 @@ body {
 }
 
 .navigation-item {
-  color: black;
+  color: $dark-grey;
   font-weight: bold;
   text-decoration: none;
 
@@ -130,6 +135,7 @@ body {
     left: 80px;
     right: 80px;
   };
+  color: $dark-grey;
 
   h2 {
     font-weight: normal;
