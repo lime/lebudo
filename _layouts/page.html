@@ -2,31 +2,12 @@
 layout: default
 ---
 <div>
-  <div style="
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 50%;
-    height: 100%;
-  ">
+  <div class="left-side">
     <div class="image-bg" style="background-image: url('{{ page.background_image }}');">
-      <h1 style="
-        position: absolute;
-        top: 30px;
-        left: 40px;
-        margin: 0;
-        padding: 0;
-      ">
+      <h1 class="title">
         Lebudo
       </h1>
-      <dl style="
-        position: absolute;
-        bottom: 30px;
-        left: 40px;
-        margin: 0;
-        padding: 0;
-      ">
+      <dl class="timetables">
         <h4>Harjoitusajat kevät 2017</h4>
         <dt>Maanantai</dt>
         <dd>16.30-18.00 Iaido</dd>
@@ -50,14 +31,7 @@ layout: default
     </div>
   </div>
 
-  <div style="
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 50%;
-    height: 100%;
-  ">
+  <div class="right-side">
     {% include navbar.html %}
     <div class="page-content">
       {{ content | markdownify }}

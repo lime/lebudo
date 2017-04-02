@@ -14,6 +14,9 @@ $base-font-family: system-ui,
   "Helvetica Neue",
   sans-serif;
 
+$full-page-padding-vertical: 30px;
+$full-page-padding-horizontal: 40px;
+
 /*
  * Base styles
  */
@@ -33,8 +36,48 @@ body {
 }
 
 /*
- * Images
+ * Layout
  */
+
+.left-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.right-side {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+}
+
+/*
+ * Left side elements
+ */
+
+.title {
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  top: $full-page-padding-vertical;
+  left: $full-page-padding-horizontal;
+}
+
+.timetables {
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  bottom: $full-page-padding-vertical;
+  left: $full-page-padding-horizontal;
+}
 
 .image-bg {
   width: 100%;
