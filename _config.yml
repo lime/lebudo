@@ -14,7 +14,7 @@ defaults:
     type: pages
   values:
     layout: page
-permalink: none
+permalink: pretty
 exclude:
 - Gemfile
 - Gemfile.lock
