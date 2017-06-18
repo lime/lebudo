@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Peruskurssi
+layout: page
 navigation_ordinal: 0
 background_image: "/uploads/iaido.jpg"
 ---
