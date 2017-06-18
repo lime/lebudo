@@ -1,5 +1,6 @@
 ---
 title: Kendo
+position: 3
 layout: page
 subtitle: 剣道
 navigation_ordinal: 3
