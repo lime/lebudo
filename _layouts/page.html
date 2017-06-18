@@ -4,14 +4,24 @@ layout: default
 
 <div>
   <div class="left-side">
-    <div class="image-bg" style="background-image: url('{{ page.background_image }}');">
+    <div
+      class="image-bg"
+      style="
+        background-image:
+          linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 20%,
+            rgba(0, 0, 0, 0.8) 70%
+          ),
+          url('{{ page.background_image }}');
+    ">
       <a href="{{ site.url }}">
         <h1 class="title">
           {{ site.title }}
         </h1>
       </a>
       <dl class="timetables">
-        <h4>Harjoitusajat kevät 2017</h4>
+        <h4 class="timetables-heading">Harjoitusajat kevät 2017</h4>
         <dt>Maanantai</dt>
         <dd>16.30-18.00 Iaido</dd>
         <dd>19.00-21.30 Kendo</dd>
@@ -39,7 +49,7 @@ layout: default
     <div class="page-content">
       <h2>
         {{ page.title }}
-        <span class=highlight>
+        <span class="heading-highlight">
           {{ page.subtitle }}
         </span>
       </h2>

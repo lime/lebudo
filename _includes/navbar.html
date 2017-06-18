@@ -1,7 +1,8 @@
 {% assign current = page.url %}
+{% assign pages = site.pages | sort: 'navigation_ordinal' %}
 
 <nav class="navigation">
-  {% for page in site.pages %}
+  {% for page in pages %}
     {% if page.title %}
 
       <a
