@@ -61,21 +61,25 @@ body {
  */
 
 .left-side {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 50%;
-  height: 100%;
+  @include large-only {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+  }
 }
 
 .right-side {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  height: 100%;
+  @include large-only {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+  }
 }
 
 /*
