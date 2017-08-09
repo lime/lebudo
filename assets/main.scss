@@ -48,6 +48,7 @@ html {
   font-size: 18px;
   font-family: $base-font-family;
   height: 100%;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -93,11 +94,12 @@ body {
 
 .title {
   margin: 0;
-  padding: 0;
-
-  position: absolute;
-  top: $full-page-padding-vertical;
-  left: $full-page-padding-horizontal;
+  padding: {
+    top: $full-page-padding-vertical;
+    bottom: $full-page-padding-vertical;
+    left: $full-page-padding-horizontal;
+    right: $full-page-padding-horizontal;
+  }
 
   line-height: $top-bar-line-height;
 
@@ -107,11 +109,23 @@ body {
 
 .timetables {
   margin: 0;
-  padding: 0;
+  padding: {
+    top: $full-page-padding-vertical;
+    bottom: $full-page-padding-vertical;
+    left: $full-page-padding-horizontal;
+    right: $full-page-padding-horizontal;
+  }
 
-  position: absolute;
-  bottom: $full-page-padding-vertical;
-  left: $full-page-padding-horizontal;
+  @include small-only {
+    background: black;
+    width: 100%;
+  }
+
+  @include large-only {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 
   dt, dd {
     margin: 0;
@@ -186,7 +200,7 @@ body {
 .page-content {
   margin: {
     top: 100px;
-    bottom: 25px;
+    bottom: 100px;
     left: 80px;
     right: 80px;
   };
@@ -205,12 +219,15 @@ body {
   }
 
   p {
-    margin: {
-      top: 36px;
-      bottom: 36px;
-      left: 15%;
-      right: 0;
-    };
+    @include large-only {
+      margin: {
+        top: 36px;
+        bottom: 36px;
+        left: 15%;
+        right: 0;
+      };
+    }
+
     font-size: 18px;
     line-height: 1.25em;
   }
