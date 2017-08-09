@@ -48,6 +48,11 @@ html {
   font-size: 18px;
   font-family: $base-font-family;
   height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
