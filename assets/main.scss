@@ -60,15 +60,24 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
+  min-width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 /*
  * Layout
  */
 
+.container {
+  position: relative;
+  min-height: 640px;
+  height: 100%;
+}
+
 .left-side {
   @include large-only {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
