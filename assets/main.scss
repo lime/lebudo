@@ -102,6 +102,7 @@ body {
  */
 
 .title {
+  display: block;
   margin: 0;
   padding: {
     top: $full-page-padding-vertical;
@@ -113,7 +114,10 @@ body {
   line-height: $top-bar-line-height;
 
   color: white;
+  font-size: 2rem;
+  font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .timetables {
