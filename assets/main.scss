@@ -78,12 +78,20 @@ body {
 
 .left-side {
   @include large-only {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     width: 50%;
     height: 100%;
+  }
+}
+
+.timetables {
+  @include large-only {
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
 }
 
@@ -132,13 +140,6 @@ body {
 
   @include small-only {
     background: $darker-grey;
-    width: 100%;
-  }
-
-  @include large-only {
-    position: absolute;
-    bottom: 0;
-    left: 0;
   }
 
   dt, dd {
