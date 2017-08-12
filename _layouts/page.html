@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div>
+<div class="container">
   <div class="left-side">
     <div
       class="image-bg"
@@ -15,32 +15,9 @@ layout: default
           ),
           url('{{ page.background_image }}');
     ">
-      <a href="{{ site.url }}">
-        <h1 class="title">
-          {{ site.title }}
-        </h1>
+      <a class="title" href="{{ site.url }}">
+        {{ site.title }}
       </a>
-      <dl class="timetables">
-        <h4 class="timetables-heading">Harjoitusajat kevät 2017</h4>
-        <dt>Maanantai</dt>
-        <dd>16.30-18.00 Iaido</dd>
-        <dd>19.00-21.30 Kendo</dd>
-
-        <dt>Tiistai</dt>
-        <dd>19.00-21.30 Kendo</dd>
-
-        <dt>Keskiviikko</dt>
-        <dd>19-21.30 Jodo (aloittelijat)</dd>
-
-        <dt>Torstai</dt>
-        <dd>20-22.00 Iaido</dd>
-
-        <dt>Perjantai</dt>
-        <dd>19-21.30 Kendo</dd>
-
-        <dt>Lauantai</dt>
-        <dd>15-17.00 Iaido</dd>
-      </dl>
     </div>
   </div>
 
@@ -56,4 +33,26 @@ layout: default
       {{ content | markdownify }}
     </div>
   </div>
+
+  <dl class="timetables">
+    <h4 class="timetables-heading">Harjoitusajat kevät 2017</h4>
+    <dt>Maanantai</dt>
+    <dd>16.30-18.00 Iaido</dd>
+    <dd>19.00-21.30 Kendo</dd>
+
+    <dt>Tiistai</dt>
+    <dd>19.00-21.30 Kendo</dd>
+
+    <dt>Keskiviikko</dt>
+    <dd>19-21.30 Jodo (aloittelijat)</dd>
+
+    <dt>Torstai</dt>
+    <dd>20-22.00 Iaido</dd>
+
+    <dt>Perjantai</dt>
+    <dd>19-21.30 Kendo</dd>
+
+    <dt>Lauantai</dt>
+    <dd>15-17.00 Iaido</dd>
+  </dl>
 </div>

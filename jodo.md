@@ -1,8 +1,8 @@
 ---
 title: Jodo
+position: 2
 layout: page
 subtitle: 杖道
-navigation_ordinal: 2
 background_image: "/uploads/iaido.jpg"
 ---
 

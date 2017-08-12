@@ -1,7 +1,7 @@
 ---
 title: Yhteystiedot
+position: 4
 layout: page
-navigation_ordinal: 4
 background_image: "/uploads/iaido.jpg"
 ---
 

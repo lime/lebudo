@@ -1,5 +1,5 @@
 {% assign current = page.url %}
-{% assign pages = site.pages | sort: 'navigation_ordinal' %}
+{% assign pages = site.pages | sort: 'position' %}
 
 <nav class="navigation">
   {% for page in pages %}
