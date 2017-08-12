@@ -14,6 +14,28 @@ defaults:
     type: pages
   values:
     layout: page
+timetables_heading: Harjoitusajat kevät 2017
+timetables:
+- day: Maanantai
+  times:
+  - 16.30-18.00 Iaido
+  - 19.00-21.30 Kendo
+- day: Tiistai
+  times:
+  - 19.00-21.30 Kendo
+- day: Keskiviikko
+  times:
+  - 19-21.30 Jodo (aloittelijat)
+- day: Torstai
+  times:
+  - 20-22.00 Iaido
+- day: Perjantai
+  times:
+  - 19-21.30 Kendo
+- day: Lauantai
+  times:
+  - 15-17.00 Iaido
+- day: Sunnuntai
 permalink: pretty
 exclude:
 - Gemfile
