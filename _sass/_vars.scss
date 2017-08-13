@@ -20,6 +20,9 @@ $full-page-padding-horizontal: 60px;
 
 $top-bar-line-height: 30px;
 
+$left-side-width: 45%;
+$right-side-width: 100% - $left-side-width;
+
 $screen-breakpoint: 770px;
 
 @mixin small-only {

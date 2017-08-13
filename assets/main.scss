@@ -47,7 +47,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 50%;
+    width: $left-side-width;
     height: 100%;
     min-height: 640px;
   }
@@ -58,6 +58,7 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
+    width: $left-side-width;
   }
 }
 
@@ -67,7 +68,7 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: $right-side-width;
     height: 100%;
   }
 }
