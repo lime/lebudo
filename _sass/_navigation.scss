@@ -1,0 +1,42 @@
+@import '_vars';
+
+/*
+ * Navigation
+ */
+
+.navigation {
+  margin: {
+    top: $full-page-padding-vertical;
+    left: $full-page-padding-horizontal;
+    right: $full-page-padding-horizontal;
+  };
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-item {
+  color: $dark-grey;
+  font-weight: bold;
+  text-decoration: none;
+
+  line-height: $top-bar-line-height;
+}
+
+.navigation-item:not(.navigation-item-current):hover::after,
+.navigation-item:not(.navigation-item-current):focus::after,
+.navigation-item.navigation-item-current::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 70%;
+  margin: {
+    top: 4px;
+    left: auto;
+    right: auto;
+  };
+  background-color: $light-grey;
+}
+
+.navigation-item.navigation-item-current::after {
+  background-color: $scarlet;
+}
