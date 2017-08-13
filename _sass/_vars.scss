@@ -1,0 +1,38 @@
+$darker-grey: #212121;
+$dark-grey: #4a4a4a;
+$light-grey: #d8d8d8;
+$scarlet: #c30016;
+
+// https://bitsofco.de/the-new-system-font-stack/
+$base-font-family: system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Oxygen-Sans,
+  Ubuntu,
+  Cantarell,
+  "Helvetica Neue",
+  sans-serif;
+
+$full-page-padding-vertical: 50px;
+$full-page-padding-horizontal: 60px;
+
+$top-bar-line-height: 30px;
+
+$left-side-width: 45%;
+$right-side-width: 100% - $left-side-width;
+
+$screen-breakpoint: 770px;
+
+@mixin small-only {
+  @media screen and (max-width: $screen-breakpoint - 1px) {
+    @content;
+  }
+}
+
+@mixin large-only {
+  @media screen and (min-width: $screen-breakpoint) {
+    @content;
+  }
+}

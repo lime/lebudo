@@ -1,6 +1,14 @@
 {% assign current = page.url %}
 {% assign pages = site.pages | sort: 'position' %}
 
+<input id="navigation-toggle-box" type="checkbox" />
+
+<label class="navigation-toggle" for="navigation-toggle-box">
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+
 <nav class="navigation">
   {% for page in pages %}
     {% if page.title %}
