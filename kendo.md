@@ -3,7 +3,7 @@ title: Kendo
 position: 3
 layout: page
 subtitle: 剣道
-background_image: "/uploads/iaido.jpg"
+background_image: "/uploads/bogu_1.jpg"
 ---
 
 Moderni kendo on kontaktilaji, jota harjoitellaan suojavarusteet päällä. Se on kamppailulaji, jossa otellaan toista vastaan. Harjoittelu koostuu yksin ja parin kanssa tehtävistä liikesarjoista.

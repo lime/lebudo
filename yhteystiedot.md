@@ -2,7 +2,7 @@
 title: Yhteystiedot
 position: 4
 layout: page
-background_image: "/uploads/iaido.jpg"
+background_image: "/uploads/iaidokat_1.jpg"
 ---
 
 Duis mi ex, lobortis vitae fermentum non, sagittis ut leo. Vestibulum justo nibh, sollicitudin at tempor vitae, pulvinar et ante. Aliquam in neque nibh. Nunc id odio purus. Nunc sit amet enim faucibus, hendrerit dolor eget, iaculis est. Aenean quis iaculis odio, euismod luctus libero. Cras imperdiet tellus sed ornare laoreet.
