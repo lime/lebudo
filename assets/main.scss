@@ -129,8 +129,8 @@ body {
   height: 100%;
   background-color: $darker-grey;
   background-size: cover;
-  background-position-x: 50%;
-  background-position-y: 100%;
+  background-position-x: 0%;
+  background-position-y: 0%;
   z-index: -1;
 
   @include small-only {

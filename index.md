@@ -2,7 +2,7 @@
 title: Peruskurssi
 position: 0
 layout: page
-background_image: "/uploads/iaido.jpg"
+background_image: "/uploads/shinai_2.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum iaculis nibh, sit amet vulputate nisl mollis at. Integer quis lorem massa. In hac habitasse platea dictumst. Aliquam a cursus urna. Donec viverra vehicula nisi.

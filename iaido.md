@@ -2,7 +2,7 @@
 title: Iaido
 position: 1
 subtitle: 居合道
-background_image: "/uploads/iaido.jpg"
+background_image: "/uploads/iaito_2.jpg"
 layout: page
 ---
 
