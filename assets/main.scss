@@ -96,6 +96,13 @@ body {
   text-decoration: none;
 }
 
+.logo {
+  height: $top-bar-line-height;
+  width: auto;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
 .timetables {
   margin: 0;
   padding: {
