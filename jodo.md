@@ -1,11 +1,10 @@
 ---
 title: Jodo
-position: 2
-layout: page
 subtitle: 杖道
-background_image: "/uploads/jo_1.jpg"
+position: 2
+background_image: /uploads/jo_1.jpg
+layout: page
 ---
+Jodo, eli kepin tie, keskittyy kepin käyttämiseen miekkailijaa vastaan. Jodon perusteisiin kuuluu 12 yksilöharjoitetta (Kihon Tandoku) ja 12 pariharjoitetta (Kihon Sotai). Kun perustekniikat ovat hallussa, siirrymme harjoittelemaan Japanin kendoliiton (Zen Nihon Kendo Renmei) 12 kataa eli ennalta sovittua liikesarjaa.
 
-Jodo, eli kepin tie, keskittyy kepin käyttämiseen miekkaa vastaan. Jodon perusteisiin kuuluu 12 yksilöharjoitusta (Kihon Tandoku) ja 12 parin kanssa tehtävää harjoitusta (Kihon Sotai). Kun perustekniikat ovat hallussa, siirrymme 12:een seitei kataan tai ennalta sovittuun liikesarjaan.
-
-Jodon harjoittelu on avoin kaikille peruskurssin suorittaneille.
+Jodon harjoittelu ei vaadi erityisiä varusteita aloittelijalta; verryttelyasu riittää.
