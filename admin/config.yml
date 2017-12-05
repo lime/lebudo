@@ -4,7 +4,7 @@ backend:
 
 collections:
   - label: "Pages"
-    name: ""
+    name: "posts"
     folder: ""
     create: false
     fields:
