@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+  branch: netlify-cms
+
+collections:
+  - label: "Pages"
+    name: ""
+    folder: ""
+    create: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Subtitle
+        name: subtitle
+        widget: string
+
+      - label: Position
+        name: position
+        widget: number
+
+      - label: Background Image
+        name: background_image
+        widget: image
+
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: page
+
+media_folder: _uploads
+
+publish_mode: editorial_workflow
