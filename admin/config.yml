@@ -16,6 +16,10 @@ collections:
         name: subtitle
         widget: string
 
+      - label: Body,
+        name: body
+        widget: markdown
+
       - label: Position
         name: position
         widget: number
