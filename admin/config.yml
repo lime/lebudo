@@ -34,5 +34,3 @@ collections:
         default: page
 
 media_folder: _uploads
-
-publish_mode: editorial_workflow
