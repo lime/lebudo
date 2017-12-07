@@ -3,8 +3,8 @@ backend:
   branch: netlify-cms
 
 collections:
-  - label: "Pages"
-    name: "posts"
+  - label: Pages
+    name: posts
     folder: ""
     create: false
     fields:
@@ -16,7 +16,7 @@ collections:
         name: subtitle
         widget: string
 
-      - label: Body,
+      - label: Body
         name: body
         widget: markdown
 
