@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-
 gem 'dato'
+
+gem 'jekyll'
 
 gem 'pry'
