@@ -14,7 +14,7 @@ directory "_pages" do
       end
 
       frontmatter(:yaml, attributes)
-      content(page.body)
+      content(page.body.strip + "\n")
     end
   end
 end
