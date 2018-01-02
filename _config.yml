@@ -2,6 +2,10 @@
 title: Lebudo
 timezone: Europe/Helsinki
 collections:
+  pages:
+    title: Pages
+    output: true
+    permalink: /:path
   posts:
     title: Posts
     output: true
