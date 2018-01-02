@@ -1,8 +1,8 @@
 ---
 title: Peruskurssi
-position: 0
+position: 1
+background_image: https://www.datocms-assets.com/4316/1514887288-shinai_2.jpg
 layout: page
-background_image: "/uploads/shinai_2.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum iaculis nibh, sit amet vulputate nisl mollis at. Integer quis lorem massa. In hac habitasse platea dictumst. Aliquam a cursus urna. Donec viverra vehicula nisi.
