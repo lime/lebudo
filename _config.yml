@@ -5,7 +5,7 @@ collections:
   pages:
     title: Pages
     output: true
-    permalink: /:path
+    permalink: "/:path"
   posts:
     title: Posts
     output: true
