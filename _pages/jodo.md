@@ -1,8 +1,8 @@
 ---
 title: Jodo
-position: 2
 subtitle: 杖道
-background_image: "/uploads/jo_1.jpg"
+position: 3
+background_image: https://www.datocms-assets.com/4316/1514887277-jo_1.jpg
 layout: page
 ---
 
