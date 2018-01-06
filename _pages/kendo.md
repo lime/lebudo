@@ -1,7 +1,7 @@
 ---
 title: Kendo
-position: 4
 subtitle: 剣道
+position: 4
 background_image: https://www.datocms-assets.com/4316/1514887257-bogu_1.jpg
 layout: page
 ---
