@@ -18,3 +18,31 @@ directory "_pages" do
     end
   end
 end
+
+WEEKDAYS = {
+  monday: "Maanantai",
+  tuesday: "Tiistai",
+  wednesday: "Keskiviikko",
+  thursday: "Torstai",
+  friday: "Perjantai",
+  saturday: "Lauantai",
+  sunday: "Sunnuntai"
+}
+
+directory "_data" do
+  data = {
+    heading: dato.timetable.heading,
+    timetable: WEEKDAYS.map do |key, translation|
+      timeslots = dato.timetable.attributes[key].map do |timeslot|
+        "#{timeslot.time} #{timeslot.sport}, #{timeslot.location}"
+      end
+
+      {
+        day: translation,
+        times: timeslots
+      }
+    end
+  }
+
+  create_data_file("timetable.yml", :yaml, data)
+end
