@@ -1,6 +1,6 @@
 ---
 title: Peruskurssi
-position: 1
+position: 0
 background_image: https://www.datocms-assets.com/4316/1514887288-shinai_2.jpg
 layout: page
 ---

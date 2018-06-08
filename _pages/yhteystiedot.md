@@ -1,6 +1,6 @@
 ---
 title: Yhteystiedot
-position: 5
+position: 4
 background_image: https://www.datocms-assets.com/4316/1514887264-iaidokat_1.jpg
 layout: page
 ---

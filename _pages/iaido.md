@@ -1,7 +1,7 @@
 ---
 title: Iaido
 subtitle: 居合道
-position: 2
+position: 1
 background_image: https://www.datocms-assets.com/4316/1514887275-iaito_2.jpg
 layout: page
 ---
