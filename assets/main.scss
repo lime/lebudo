@@ -156,6 +156,14 @@ body {
     left: 80px;
     right: 80px;
   };
+
+  @include small-only {
+    margin: {
+      left: $full-page-padding-horizontal;
+      right: $full-page-padding-horizontal;
+    }
+  }
+
   color: $dark-grey;
   word-wrap: break-word;
 
