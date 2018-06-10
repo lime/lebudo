@@ -1,23 +1,21 @@
-heading: Harjoitusajat kevät 2018
+heading: Harjoitusajat kesävuorot 23.7 - 16.8.
 timetable:
 - day: Maanantai
   times:
-  - 20:00-21:30 Iaido, Lintuvaaran koulu
+  - 19:30-21:30 Iaido, Ruusutorpan koulu
 - day: Tiistai
   times:
   - 20:00-21:30 Kendo, Ruusutorpan koulu
 - day: Keskiviikko
   times:
-  - 20:00-21:30 Jodo, Lintuvaaran koulu
+  - 19:30-21:30 Jodo, Lintuvaaran koulu
 - day: Torstai
   times:
-  - 20:15-21:30 Iaido, Lintuvaaran koulu
+  - 19:30-21:30 Iaido, Lintuvaaran koulu
+  - 19:30-21:30 Kendo, Ruusutorpan Koulu
 - day: Perjantai
-  times:
-  - 18:00-20:00 Kendo, Postipuun koulu
+  times: []
 - day: Lauantai
-  times:
-  - 14:00-17:00 Iaido / Jodo, Ruusutorpan koulu
+  times: []
 - day: Sunnuntai
-  times:
-  - 13:00-15:00 Kendo, Ruusutorpan koulu
+  times: []
