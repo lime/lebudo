@@ -38,3 +38,10 @@ $screen-breakpoint: 770px;
   --left-side-width: 45%;
   --right-side-width: calc(100% - var(--left-side-width));
 }
+
+@include small-only {
+  :root {
+    --full-page-padding-vertical: 30px;
+    --full-page-padding-horizontal: 30px;
+  }
+}
