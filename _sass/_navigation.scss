@@ -87,7 +87,7 @@
   // Decorations, small screens
   @include small-only {
     $bg: $darker-grey;
-    $lighter-bg: lighten($bg, 10%);
+    $lighter-bg: $dark-grey;
     $border-width: 6px;
 
     padding: {
