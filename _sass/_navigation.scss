@@ -6,8 +6,8 @@
 
 .navigation-toggle {
   position: absolute;
-  top: $full-page-padding-vertical;
-  right: $full-page-padding-horizontal;
+  top: var(--full-page-padding-vertical);
+  right: var(--full-page-padding-horizontal);
   width: 29px;
   margin: 0;
   padding: 0;
@@ -59,7 +59,7 @@
 
 .navigation {
   margin: {
-    top: $full-page-padding-vertical;
+    top: var(--full-page-padding-vertical);
     left: 5vw;
     right: 5vw;
   };
@@ -78,35 +78,35 @@
 }
 
 .navigation-item {
-  color: $dark-grey;
+  color: var(--dark-grey);
   font-weight: bold;
   text-decoration: none;
 
-  line-height: $top-bar-line-height;
+  line-height: var(--top-bar-line-height);
 
   // Decorations, small screens
   @include small-only {
-    $bg: $darker-grey;
-    $lighter-bg: $dark-grey;
-    $border-width: 6px;
+    --bg: var(--darker-grey);
+    --lighter-bg: var(--dark-grey);
+    --border-width: 6px;
 
     padding: {
       top: 20px;
       bottom: 20px;
-      left: $full-page-padding-horizontal - $border-width;
+      left: calc(var(--full-page-padding-horizontal) - var(--border-width));
     }
 
     color: white;
-    background: $bg;
+    background: var(--bg);
 
     &:focus, &:hover {
-      background: $lighter-bg;
+      background: var(--lighter-bg);
     }
 
-    border-left: $lighter-bg solid $border-width;
+    border-left: var(--lighter-bg) solid var(--border-width);
 
     &.navigation-item-current {
-      border-left-color: $scarlet;
+      border-left-color: var(--scarlet);
     }
   }
 }
@@ -125,10 +125,10 @@
       left: auto;
       right: auto;
     };
-    background-color: $light-grey;
+    background-color: var(--light-grey);
   }
 
   .navigation-item.navigation-item-current::after {
-    background-color: $scarlet;
+    background-color: var(--scarlet);
   }
 }
