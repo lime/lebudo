@@ -19,6 +19,8 @@ defaults:
   values:
     layout: page
 permalink: pretty
+include:
+- _redirects
 exclude:
 - Gemfile
 - Gemfile.lock

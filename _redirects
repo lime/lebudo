@@ -1,0 +1,4 @@
+# Redirect domain aliases to primary domain
+https://test.lebudo.net/* https://lebudo.net/:splat 301!
+https://www.lebudo.net/* https://lebudo.net/:splat 301!
+https://lebudo.netlify.com/* https://lebudo.net/:splat 301!
