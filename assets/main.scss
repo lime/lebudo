@@ -98,7 +98,7 @@ body {
 }
 
 .logo {
-  height: var(--top-bar-line-height);
+  height: calc(var(--top-bar-line-height) * 2);
   width: auto;
   vertical-align: bottom;
   margin-right: 5px;
