@@ -1,3 +1,8 @@
+---
+layout: none
+---
+
+# Common for all
 /*
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
@@ -6,5 +11,17 @@
   Content-Security-Policy-Report-Only: default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://www.datocms-assets.com; font-src 'self'; form-action 'none'; frame-ancestors 'none'; report-uri https://lebudo.report-uri.com/r/d/csp/wizard
   Referrer-Policy: strict-origin
 
+# Asset caching
 /assets/*
   Cache-Control: public, max-age=3600
+
+# Preloading
+{% for page in site.pages %}
+{{ page.url | replace: '/index', '/' }}
+  Link: </assets/normalize.css>; rel=preload; as=stylesheet
+  Link: </assets/main.css>; rel=preload; as=stylesheet
+  Link: </assets/lebudo-logo.svg>; rel=preload; as=image
+  Link: </assets/fonts/Metropolis-Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin
+  Link: </assets/fonts/Metropolis-Bold.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin
+  Link: <{{ page.background_image }}>; rel=preload; as=image
+{% endfor %}
