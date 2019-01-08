@@ -3,6 +3,13 @@
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Cache-Control: public, max-age=300, must-revalidate
+  Content-Security-Policy-Report-Only: default-src 'none'
+  Content-Security-Policy-Report-Only: script-src 'self'
+  Content-Security-Policy-Report-Only: style-src 'self'
+  Content-Security-Policy-Report-Only: img-src 'self', https://www.datocms-assets.com
+  Content-Security-Policy-Report-Only: form-action 'none'
+  Content-Security-Policy-Report-Only: frame-ancestors 'none'
+  Content-Security-Policy-Report-Only: report-uri https://lebudo.report-uri.com/r/d/csp/wizard
 
 /assets/*
   Cache-Control: public, max-age=3600
