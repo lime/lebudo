@@ -21,6 +21,7 @@ defaults:
 permalink: pretty
 include:
 - _redirects
+- _headers
 exclude:
 - Gemfile
 - Gemfile.lock
