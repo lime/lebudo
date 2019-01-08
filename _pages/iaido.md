@@ -9,3 +9,5 @@ layout: page
 Iaido on perinteinen japanilainen budolaji, jossa harjoitellaan miekan vetämistä ja leikkaamista yhtenä liikkeenä. Iaidon harjoittelu koostuu erilaisista kata- eli liikesarjoista ja leikkausharjoituksista kuvitteellista vastustajaa vastaan.
 
 Seurassamme harjoitellaan Japanin Kendoliiton määrittelemää 12 katan kokoelmaa (Zen Nihon Kendo Renmei Iai). Iaidoharjoittelu aloitetaan puumiekalla, mutta nopeasti peruskurssin jälkeen on mahdollista hankkia metallinen harjoitusmiekka.
+
+Iaidon harjoittelu ei vaadi erityisiä varusteita aloittelijalta; verryttelyasu riittää.

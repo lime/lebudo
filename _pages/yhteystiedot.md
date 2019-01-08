@@ -14,7 +14,7 @@ lebudo at gmail com
 Liity listalle lähettämällä tyhjä sähköposti ilman otsikkoa ja sisältöä osoitteeseen lebudo+subscribe at googlegroups.com
 
 Saat vastausviestin jonka jälkeen on kaksi mahdollisuutta:
-hyväksy kutsu (vaatii kirjautumista google tilillä)
+hyväksy kutsu (vaatii kirjautumista google-tilillä)
 
 tai
 
