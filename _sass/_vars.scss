@@ -18,8 +18,10 @@ $screen-breakpoint: 770px;
   --light-grey: #d8d8d8;
   --scarlet: #c30016;
 
+  // https://github.com/chrismsimpson/Metropolis
   // https://bitsofco.de/the-new-system-font-stack/
-  --base-font-family: system-ui,
+  --base-font-family: Metropolis,
+    system-ui,
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Metropolis Regular'),
+    local('Metropolis-Regular'),
+    url('/assets/fonts/Metropolis-Regular.woff2') format('woff2'),
+    url('/assets/fonts/Metropolis-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Metropolis Bold'),
+    local('Metropolis-Bold'),
+    url('/assets/fonts/Metropolis-Bold.woff2') format('woff2'),
+    url('/assets/fonts/Metropolis-Bold.woff') format('woff');
+}
