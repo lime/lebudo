@@ -154,8 +154,8 @@ body {
   margin: {
     top: 80px;
     bottom: 80px;
-    left: 80px;
-    right: 80px;
+    left: 5vw;
+    right: 5vw;
   };
 
   @include small-only {
@@ -188,6 +188,7 @@ body {
         left: 0;
         right: 0;
       };
+      max-width: 800px;
     }
 
     font-size: 18px;
