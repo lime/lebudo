@@ -98,10 +98,14 @@ body {
 }
 
 .logo {
-  height: calc(var(--top-bar-line-height) * 2);
+  height: 80px;
   width: auto;
   vertical-align: bottom;
   margin-right: 5px;
+
+  @include small-only {
+    height: 60px;
+  }
 }
 
 .timetables {
