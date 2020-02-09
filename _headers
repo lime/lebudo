@@ -13,7 +13,7 @@ layout: none
 
 # Asset caching
 /assets/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=86400
 
 # Preloading
 {% for page in site.pages %}
