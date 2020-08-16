@@ -1,14 +1,15 @@
-heading: Harjoitusajat kevät 2020
+heading: Harjoitusajat - Syksy 2020
 timetable:
 - day: Maanantai
   times:
   - 18:30-20:30 Iaido, Ruusutorpan koulu
 - day: Tiistai
   times:
-  - 20:00-21:30 Kendo, Ruusutorpan koulu
+  - 16:30-18:00 Kendo, Ruusutorpan koulu
 - day: Keskiviikko
   times:
-  - 19:45 - 21:30 Kendo, Ruusutorpan koulu
+  - 18:00-20:00 Iaido, Lintuvaaran koulu
+  - 19:45-21:30 Kendo, Ruusutorpan koulu
 - day: Torstai
   times:
   - 18:00-19:30 Jodo, Lintuvaaran koulu
@@ -17,7 +18,7 @@ timetable:
   times: []
 - day: Lauantai
   times:
-  - 14:00 - 15:30 Iaido, Ruusutorpan koulu
-  - 15:30 - 17:00 Jodo, Ruusutorpan koulu
+  - 14:00-15:30 Iaido, Ruusutorpan koulu
+  - 15:30-17:00 Jodo, Ruusutorpan koulu
 - day: Sunnuntai
   times: []

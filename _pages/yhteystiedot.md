@@ -5,11 +5,11 @@ background_image: https://www.datocms-assets.com/4316/1554775236-lebudo.jpg
 layout: page
 ---
 
-**email:**
+**Email:**
 
 lebudo at gmail com
 
-**seuran postituslistalle liittyminen ja sen käyttö:**
+**Seuran postituslistalle liittyminen ja sen käyttö:**
 
 Liity listalle lähettämällä tyhjä sähköposti ilman otsikkoa ja sisältöä osoitteeseen lebudo+subscribe at googlegroups.com
 
