@@ -15,16 +15,16 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
 permalink: pretty
 include:
-- _redirects
-- _headers
+  - _redirects
+  - _headers
 exclude:
-- Gemfile
-- Gemfile.lock
-- vendor
+  - Gemfile
+  - Gemfile.lock
+  - vendor
