@@ -1,5 +1,7 @@
 ---
 title: Leppävaaran Budoseura
+source: src
+dest: _site
 timezone: Europe/Helsinki
 collections:
   pages:
