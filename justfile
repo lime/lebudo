@@ -5,7 +5,7 @@ serve:
   bundle exec jekyll serve
 
 update-content:
-  # You can supply the API as an environment variable:
+  # You can supply the API token as an environment variable:
   # export DATO_API_TOKEN=abc123
   # or by creating a .env file containing 'DATO_API_TOKEN=abc123'.
   bundle exec dato dump
