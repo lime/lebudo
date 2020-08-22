@@ -6,7 +6,7 @@ background_image: https://www.datocms-assets.com/4316/1554774287-shinai.jpg
 layout: page
 ---
 
-Syksyllä 2020 aloitamme peruskurssit kendossa ja iaidossa. Peruskurssit alkavat iaidossa 31.8. ja kendossa 1.9.
+Syksyllä 2020 aloitamme peruskurssit kendossa ja iaidossa. Peruskurssit alkavat kendossa 1.9. ja iaidossa 2.9.
 
 Voit tulla tutustumaan lajeihin meidän peruskurssinäytökselle Espoo päivän yhteydessä. Näytökset pidetään Ruusutorpan koululla 29.8. kello 14.30 ja kello 16.00.
 
