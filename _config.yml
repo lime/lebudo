@@ -4,10 +4,12 @@ source: src
 dest: _site
 timezone: Europe/Helsinki
 collections:
+  # We store pages in _pages instead of directly in the source dir
   pages:
     title: Pages
     output: true
     permalink: /:path
+  # Dato handles & hosts images, but we store them here too as a backup
   uploads:
     title: Uploads
     output: true
