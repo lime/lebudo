@@ -4,4 +4,6 @@ gem 'dato'
 
 gem 'jekyll'
 
+gem 'redcarpet'
+
 gem 'pry'

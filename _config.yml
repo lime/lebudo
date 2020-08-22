@@ -24,3 +24,4 @@ permalink: pretty
 include:
   - _redirects
   - _headers
+markdown: CustomMarkdown
