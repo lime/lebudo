@@ -1,4 +1,4 @@
-directory "_pages" do
+directory "src/_pages" do
   dato.pages.each do |page|
     create_post "#{page.slug}.md" do
       attributes = {
@@ -29,7 +29,7 @@ WEEKDAYS = {
   sunday: "Sunnuntai"
 }
 
-directory "_data" do
+directory "src/_data" do
   data = {
     heading: dato.timetable.heading,
     timetable: WEEKDAYS.map do |key, translation|
