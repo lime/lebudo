@@ -13,3 +13,5 @@ Voit tulla tutustumaan lajeihin meidän peruskurssinäytökselle Espoo päivän 
 Peruskurssille voit ilmoittautua oheisen linkin kautta. https://forms.gle/xKXpXNwMYKQx5Kxb8
 
 Lisätietoja tapahtumasta myös Facebookissa: https://tinyurl.com/y36sz3d9
+
+Tapahtumasta tullaan järjestämän live-stream, joka löytyy tapahtuman FB-sivuilta tai suoraan linkistä: https://www.facebook.com/Lebudory/posts/3389821814415414

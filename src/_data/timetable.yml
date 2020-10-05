@@ -9,10 +9,10 @@ timetable:
 - day: Keskiviikko
   times:
   - 18:00-20:00 Iaido, Lintuvaaran koulu
-  - 19:45-21:30 Kendo, Ruusutorpan koulu
 - day: Torstai
   times:
   - 18:00-19:30 Jodo, Lintuvaaran koulu
+  - 18:00-20:00 Kendo, Ruusutorpan koulu
   - 19:30-21:30 Iaido, Lintuvaaran koulu
 - day: Perjantai
   times: []
