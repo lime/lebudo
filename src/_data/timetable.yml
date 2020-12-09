@@ -1,24 +1,24 @@
-heading: Harjoitusajat - Syksy 2020
+heading: Etä-harjoitusajat - Joulukuu 2020
 timetable:
 - day: Maanantai
   times:
-  - 18:30-20:30 Iaido, Ruusutorpan koulu
+  - 18:30-19:30 Iaido, Zoom
 - day: Tiistai
   times:
-  - 16:30-18:00 Kendo, Ruusutorpan koulu
+  - 17:00-18:00 Kendo, Google Meet
 - day: Keskiviikko
   times:
-  - 18:00-20:00 Iaido, Lintuvaaran koulu
+  - 18:00-19:00 Iaido, Zoom
 - day: Torstai
   times:
-  - 18:00-19:30 Jodo, Lintuvaaran koulu
-  - 18:00-20:00 Kendo, Ruusutorpan koulu
-  - 19:30-21:30 Iaido, Lintuvaaran koulu
+  - 18:00-19:00 Jodo, Zoom
+  - 19:00-20:00 Iaido, Zoom
+  - "– Kendo, Temporarily canceled"
 - day: Perjantai
   times: []
 - day: Lauantai
   times:
-  - 14:00-15:30 Iaido, Ruusutorpan koulu
-  - 15:30-17:00 Jodo, Ruusutorpan koulu
+  - 14:00-15:00 Iaido, Zoom
+  - 15:00-16:00 Jodo, Zoom
 - day: Sunnuntai
   times: []

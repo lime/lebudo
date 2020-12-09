@@ -7,7 +7,7 @@ layout: page
 
 **Email:**
 
-lebudo at gmail com
+lebudo at gmail com (suomi / svenska / english)
 
 **Seuran postituslistalle liittyminen ja sen käyttö:**
 
@@ -18,7 +18,8 @@ hyväksy kutsu (vaatii kirjautumista google-tilillä)
 
 tai
 
-vastaa viestiin lähettämällä se takaisin
+vastaa viestiin lähettämällä se takaisin.
 
 Voit lähettää viestejä tähän ryhmään käyttämällä vastaanottajana sähköpostiosoitetta lebudo at googlegroups.com.
+
 Voit lopettaa ryhmän tilauksen lähettämällä tyhjän sähköpostin osoitteeseen lebudo+unsubscribe at googlegroups.com.
