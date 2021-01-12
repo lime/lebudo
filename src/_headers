@@ -24,4 +24,5 @@ layout: none
   Link: </assets/fonts/Metropolis-Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin
   Link: </assets/fonts/Metropolis-Bold.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin
   Link: <{{ page.background_image }}>; rel=preload; as=image
+  Link: <https://stats.lebudo.net>; rel=preconnect
 {% endfor %}
