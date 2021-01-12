@@ -2,7 +2,7 @@
 title: Ajankohtaista
 subtitle: '2021'
 position: 0
-background_image: https://www.datocms-assets.com/4316/1554774287-shinai.jpg
+background_image: https://www.datocms-assets.com/4316/1554774287-shinai.jpg?auto=compress
 layout: page
 ---
 

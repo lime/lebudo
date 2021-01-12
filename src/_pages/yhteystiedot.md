@@ -1,7 +1,7 @@
 ---
 title: Yhteystiedot
 position: 5
-background_image: https://www.datocms-assets.com/4316/1554775236-lebudo.jpg
+background_image: https://www.datocms-assets.com/4316/1554775236-lebudo.jpg?auto=compress
 layout: page
 ---
 

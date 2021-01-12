@@ -2,7 +2,7 @@
 title: Jodo
 subtitle: 杖道
 position: 3
-background_image: https://www.datocms-assets.com/4316/1554775031-jo.jpg
+background_image: https://www.datocms-assets.com/4316/1554775031-jo.jpg?auto=compress
 layout: page
 ---
 

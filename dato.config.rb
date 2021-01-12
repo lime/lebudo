@@ -5,7 +5,7 @@ directory "src/_pages" do
         title: page.title,
         subtitle: page.subtitle,
         position: page.position,
-        background_image: page.background_image.url,
+        background_image: page.background_image.url(auto: :compress),
         layout: "page"
       }
 
